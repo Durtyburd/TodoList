@@ -1,0 +1,127 @@
+body {
+  background-color: #b983ff;
+  font-family: "Fredoka One", cursive;
+}
+
+#main {
+  background-color: #94b3fd;
+  padding: 25px 25px 45px 25px;
+  border: solid black;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+button {
+  background: #94daff;
+  margin: 5px 5px 5px 5px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the list items */
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  background: #94daff;
+  font-size: 18px;
+  transition: 0.2s;
+}
+
+ul li:hover {
+  color: grey;
+  /* text-decoration: line-through; */
+}
+
+li {
+  border: solid 0.5px black;
+}
+
+#text {
+  height: 25px;
+  width: 1000px;
+}
+
+#add {
+  height: 33px;
+  width: 200px;
+}
+
+#sortZA {
+  height: 33px;
+  width: 50px;
+}
+
+#sortAZ {
+  height: 33px;
+  width: 50px;
+}
+
+#upperCase {
+  height: 33px;
+  width: 100px;
+}
+
+#lowerCase {
+  height: 33px;
+  width: 100px;
+}
+
+.upBtn {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: -10px 10px 8px 10px;
+  background: #94daff;
+  border: none;
+}
+
+.downBtn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 10px 10px 10px -10px;
+  background: #94daff;
+  border: none;
+}
+
+.erase {
+  position: absolute;
+  left: 0;
+  background: #94daff;
+  border: none;
+}
+
+#remove {
+  height: 33px;
+  width: 200px;
+}
+
+#secondary {
+  /* background-color: cyan; */
+}
+
+.close {
+  position: relative;
+  left: 1500px;
+  top: 0;
+  padding: 12px 16px 12px 16px;
+  object-position: right;
+}
+
+@media screen and (max-width: 1024px) {
+  #main {
+    background-color: #94b3fd;
+    padding: 25px 25px 45px 25px;
+  }
+
+  #text {
+    height: 25px;
+    width: 300px;
+  }
+}
