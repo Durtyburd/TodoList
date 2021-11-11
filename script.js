@@ -11,6 +11,7 @@ const upperCase = document.getElementById("upperCase");
 
 const create = function () {
   items.push(input.value);
+  input.value = "";
   render();
 };
 
